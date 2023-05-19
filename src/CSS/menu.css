@@ -1,0 +1,22 @@
+ul{
+    border: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: aliceblue;
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+li{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+
+}
+.menu{
+    background-color:  #4CAF50;
+}
+li:hover{
+    color: black;
+}
