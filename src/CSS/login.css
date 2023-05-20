@@ -1,3 +1,6 @@
+.login{
+    background-image: url('./sary/bcg.jpg');
+}
 #divcontainer{
     background-color: black;
     opacity: 0.8;
@@ -11,6 +14,12 @@ h1{
     text-align: center;
 }
 input{
-    margin-left: 120px;
     margin-bottom: 5Opx;
+    width: 250px;
+    height: 40px;
+    margin-left: 60px;
+    background-color: rgb(247, 240, 240);
+    border: none;
+    opacity:1;
+
 }
