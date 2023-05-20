@@ -1,11 +1,14 @@
 .login{
-    background-image: url('./sary/bcg.jpg');
+    /*background-image: url('./sary/bcg.jpg');*/
+    background-size: 100%;
 }
 #divcontainer{
+    margin: auto;
     background-color: black;
     opacity: 0.8;
     max-width: 400px;
-    height: 500px;
+    height: 400px;
+    border-radius: 10px;
 }
 h1{
     color: white;
@@ -15,11 +18,19 @@ h1{
 }
 input{
     margin-bottom: 5Opx;
+    padding-left: 10px;
     width: 250px;
     height: 40px;
-    margin-left: 60px;
+    margin-left: 70px;
     background-color: rgb(247, 240, 240);
     border: none;
-    opacity:1;
-
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#idsubmit{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
 }

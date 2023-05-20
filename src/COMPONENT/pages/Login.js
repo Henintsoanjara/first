@@ -5,11 +5,11 @@ export default function Login(){
                  <div id="idform">
                      <h1>Sign In</h1>
                           <form>
-                                <input type="text" name="username" ></input><br></br>
-                                <input type="text" name="userpass" ></input><br></br>
-                                <input type="submit" name="validation" />
-                          </form>
-                </div>
+                                <input type="text" name="username" placeholder="Username"></input><br></br>
+                                <input type="text" name="userpass" placeholder="Password"></input><br></br>
+                                <input id="idsubmit" type="submit" name="validation" value="Submit" />
+                            </form>
+                </div>     
             </div>
         </div>
     );
