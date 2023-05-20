@@ -9,8 +9,9 @@ function App() {
         <Menu />
         <Routes>
            <Route path="/" element={<Home />} />
+           <Route path='/COMPONENT/pages/Login' element={ <Login/>}/>
         </Routes>
-        <Login/>
+       
     </div>
   );
 }
