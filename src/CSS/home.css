@@ -14,8 +14,17 @@ body{
     padding-top: 180px;
     border-radius: 50%;
     box-shadow: 0PX 0PX 50px 5PX rgb(59, 232, 251);
+    animation-name: moov;
+    animation-duration:1s;
+    background-color: black;
+    opacity: 0,8;
+}
+@keyframes moov {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
 }
 a{
+    text-decoration: none;
     color: antiquewhite;
     display: block;
     border: 1px solid white;
@@ -25,6 +34,8 @@ a{
     margin-bottom: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    animation-name: moov;
+    animation-duration:1s;
 }
 #con{
     background-color: #008CBA;

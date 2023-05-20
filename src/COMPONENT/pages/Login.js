@@ -9,7 +9,8 @@ export default function Login(){
                                 <input type="text" name="userpass" placeholder="Password"></input><br></br>
                                 <input id="idsubmit" type="submit" name="validation" value="Submit" />
                             </form>
-                </div>     
+                </div> 
+                <a className="lo" href="">Forgot Password</a>    
             </div>
         </div>
     );
