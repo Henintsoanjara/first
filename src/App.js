@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './COMPONENT/pages/Home';
 import Menu from './Menu';
 import './CSS/App.css';
+import Login from './COMPONENT/pages/Login';
 function App() {
   return (
     <div>
@@ -9,6 +10,7 @@ function App() {
         <Routes>
            <Route path="/" element={<Home />} />
         </Routes>
+        <Login/>
     </div>
   );
 }

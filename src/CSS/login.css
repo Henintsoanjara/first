@@ -1,0 +1,16 @@
+#divcontainer{
+    background-color: black;
+    opacity: 0.8;
+    max-width: 400px;
+    height: 500px;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+input{
+    margin-left: 120px;
+    margin-bottom: 5Opx;
+}
