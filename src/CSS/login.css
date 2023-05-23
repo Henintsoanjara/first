@@ -1,5 +1,4 @@
 .login{
-    /*background-image: url('./sary/bcg.jpg');*/
     background-size: 100%;
 }
 @keyframes moovedivcontainer {
@@ -45,4 +44,7 @@ a.lo{
     color: rgb(26, 107, 237);
     text-decoration: none;
     margin: auto;
+}
+#idform{
+    background: inherit;
 }

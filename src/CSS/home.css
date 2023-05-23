@@ -1,6 +1,7 @@
 body{
     background-image: url('./sary/okk.png');
-   /* background-size: 250%;*/
+    background-size: cover;
+   background-attachment: fixed;
 
 }
 .boutton{
@@ -17,7 +18,7 @@ body{
     animation-name: moov;
     animation-duration:1s;
     background-color: black;
-    opacity: 0,8;
+    opacity: 0.8;
 }
 @keyframes moov {
     from {transform: scale(0);}
