@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function Login(){
     return(
         <div className="login">
@@ -10,7 +12,7 @@ export default function Login(){
                                 <input id="idsubmit" type="submit" name="validation" value="Submit" />
                             </form>
                 </div> 
-                <a className="lo" href="">Forgot Password</a>    
+                <NavLink className="lo">Forgot Password</NavLink>    
             </div>
         </div>
     );

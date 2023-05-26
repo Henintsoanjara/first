@@ -24,7 +24,7 @@ body{
     from {transform: scale(0);}
     to {transform: scale(1);}
 }
-a{
+.ok{
     text-decoration: none;
     color: antiquewhite;
     display: block;
