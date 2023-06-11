@@ -7,7 +7,7 @@ export default function Home(){
             <div className="boutton">
                 <div>
                      <NavLink className="ok" id="con" to="/COMPONENT/pages/Login">Connexion</NavLink>
-                     <NavLink className="ok" id="ins">Inscription</NavLink>
+                     <NavLink className="ok" id="ins" to="/COMPONENT/pages/Signin">Inscription</NavLink>
                 </div>
             </div>
         </div>
