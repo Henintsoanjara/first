@@ -1,17 +1,68 @@
 label{
+    margin-top: 0;
+    color: black;
     text-align: center;
     display:block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .divcontain{
     margin: auto;
-    background-color: black;
-    opacity: 0.8;
+    background-color:white;
     max-width: 600px;
     border: 3px dashed white;
     display: flex;
-    color: blanchedalmond;
+    color: rgb(252, 250, 246);
+    animation-name: moovedivcontainer;
+    animation-duration:1s;
 }
 #divcote{
+    display: block;
+    position: relative;
+    top: 0px;
+    max-width: 360px;
+    height: 450px;
+    background-color:black;
+    opacity: 0.8;
+    position: relative;
+    width: 100%;
+}
+.inp{
+    padding-bottom: 0;
+    color: gray;
+    font-size: 15px;
+    margin: auto;
+    outline: 0;
+    border: 0;
+    border-bottom: 0.9px solid black;
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 200px;
+}
+h2{
+    color: white;
+    text-align: center;
+    position:relative;
+    top:150px;
+}
+#nok{
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+#ok{
     display: inline;
-    background-color: rgb(17, 17, 93);
+    position:absolute;
+    top: 250px;
+    right: 45px;
+    align-items: center;
+    background-color: green;
+    color: white;
+}
+h1{
+    color: black;
+}
+@keyframes moovedivcontain {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
 }

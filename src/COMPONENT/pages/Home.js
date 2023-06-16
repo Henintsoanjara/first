@@ -5,7 +5,7 @@ export default function Home(){
     return (
         <div className="home">
             <div className="boutton">
-                <div>
+                <div className="seconde">
                      <NavLink className="ok" id="con" to="/COMPONENT/pages/Login">Connexion</NavLink>
                      <NavLink className="ok" id="ins" to="/COMPONENT/pages/Signin">Inscription</NavLink>
                 </div>

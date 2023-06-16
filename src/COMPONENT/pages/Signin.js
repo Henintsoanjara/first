@@ -3,21 +3,22 @@ export default function Signin(){
         <div className="signin">
             <div className="divcontain">
                 <div>
-                    <h1>Sign Up</h1>
+                    <h1>Sign'Up</h1>
                     <label htmlFor="anarana">NOM</label>
-                    <input type="text" className="anarana" id="anarana" placeholder="Ex:RAVALOHERY"/>
+                    <input type="text" className="inp" id="anarana" placeholder="Ex:RAVALOHERY" autoComplete="off" required/>
                     <label htmlFor="fname">PRENOM</label>
-                    <input type="text" className="fname" id="fname" placeholder="Ex:Aajran"/>
+                    <input type="text" className="inp" id="fname" placeholder="Ex:Aajran" autoComplete="off" required/>
                     <label htmlFor="uname">USERNAME</label>
-                    <input type="text" className="uname" id="uname" placeholder="Ex:@Bonhome12"/>
+                    <input type="text" className="inp" id="uname" placeholder="Ex:@Bonhome12" autoComplete="off" required/>
                     <label htmlFor="num">NUMBER</label>
-                    <input type="text" className="num" id="num" placeholder="Ex:03491xxxxx"/>
+                    <input type="text" className="inp" id="num" placeholder="Ex:03491xxxxx" autoComplete="off" required/>
+                    <input type="reset" value="Reset"id="nok"/>
                 </div>
                 <div id="divcote">
-                        <h2>Welcome to your word</h2>
-                </div>
+                   <h2>Welcome to your word</h2>
+                   <input id="ok" type="submit" value="submit"/>
             </div>
-
+            </div>
         </div>
     );
 }

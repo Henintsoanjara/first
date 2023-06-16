@@ -5,6 +5,7 @@ body{
 
 }
 .boutton{
+
     margin-top: 50px;
     margin-left:360px;
     border: 10px solid rgb(8, 225, 241);
@@ -47,4 +48,7 @@ body{
 .boutton:hover{
     border-style: solid;
     box-shadow: 0PX 0PX 50px 20PX rgb(59, 232, 251);   
+}
+.home{
+
 }
