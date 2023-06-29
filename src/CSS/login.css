@@ -5,36 +5,39 @@
     from {transform: scale(0);}
     to {transform: scale(1);}
 }
-#divcontainer{
+#di{
     margin: auto;
-    background-color: black;
-    opacity: 0.8;
+    background-color: rgb(161, 158, 158);
+    opacity: 0.9;
     max-width: 400px;
     height: 450px;
     border-radius: 10px;
     animation-name: moovedivcontainer;
     animation-duration:1s;
 }
-h1{
+.G{
     color: white;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    padding-bottom: 30px;
 }
-input{
+.i{
     margin-bottom: 5Opx;
     padding-left: 10px;
     width: 250px;
     height: 40px;
-    margin-left: 70px;
+    margin: auto;
     background-color: rgb(247, 240, 240);
-    border: none;
+    border-style: none;
     margin-bottom: 15px;
     border-radius: 5px;
     font-size: 20px;
 }
 #idsubmit{
     background-color: red;
+    border-radius: 10px;
+    width: 190px;
     color: white;
     font-size: 20px;
     margin-top: 20px;
@@ -47,5 +50,6 @@ a.lo{
     margin-top: 100px;
 }
 #idform{
-    background: inherit;
+    text-align: center;
+    padding-top: 20px;
 }

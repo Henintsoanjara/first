@@ -3,14 +3,14 @@ export default function Signin(){
         <div className="signin">
             <div className="divcontain">
                 <div>
-                    <h1>Sign'Up</h1>
-                    <label htmlFor="anarana">NOM</label>
+                    <h1 className="H">Sign'Up</h1>
+                    <label className="labels" htmlFor="anarana">NOM</label>
                     <input type="text" className="inp" id="anarana" placeholder="Ex:RAVALOHERY" autoComplete="off" required/>
-                    <label htmlFor="fname">PRENOM</label>
+                    <label className="labels" htmlFor="fname">PRENOM</label>
                     <input type="text" className="inp" id="fname" placeholder="Ex:Aajran" autoComplete="off" required/>
-                    <label htmlFor="uname">USERNAME</label>
+                    <label className="labels" htmlFor="uname">USERNAME</label>
                     <input type="text" className="inp" id="uname" placeholder="Ex:@Bonhome12" autoComplete="off" required/>
-                    <label htmlFor="num">NUMBER</label>
+                    <label className="labels" htmlFor="num">NUMBER</label>
                     <input type="text" className="inp" id="num" placeholder="Ex:03491xxxxx" autoComplete="off" required/>
                     <input type="reset" value="Reset"id="nok"/>
                 </div>
